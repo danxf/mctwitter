@@ -1,5 +1,5 @@
 # mctwitter
-This is a text generator based on Markov chains. It learns from twitter data and can be used to mimick existing writing patterns of people.
+This is a text generator based on Markov chains. It learns from twitter data and can be used to mimic existing writing patterns of people.
 
 ## Requirements:
 * NumPy
