@@ -23,7 +23,7 @@ def get_time_str():
 
 
 def read_keys(idx):
-    with open('df.crd','rb') as f:
+    with open('cred.crd','rb') as f:
         u = json.load(f)    
     
     return u[idx]['ck'],u[idx]['cs'],u[idx]['at'],u[idx]['ats']
