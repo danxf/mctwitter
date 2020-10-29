@@ -63,12 +63,6 @@ if __name__ == "__main__":
     (markov_dict, start_words) = build_dict()
                     
     #Writing output to file
-    with open('gen_output.txt','a') as f:
-        f.write('Generator Output:\n\n')
-    for i in range(Ntweets_to_generate):
-        with open('gen_output.txt','a') as f:
-            #joining the list of tokens returned from the genrator and writing to file
+    with open('gen_output.txt', 'a') as f:
+        for i in range(Ntweets_to_generate):
             f.write(' '.join(generate(markov_dict, start_words))+'\n\n')
-        
-        
-    
